@@ -7,7 +7,7 @@ while True:
         nome = input("Nome do comprador (Enter para encerrar): ")
         if nome == "":
             break
-        nomes.append(no me)
+        nomes.append(nome)
 
     if len(nomes) > 0:
         print("O ganhador é:", random.choice(nomes))
